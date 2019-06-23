@@ -1,15 +1,3 @@
-# JpegConv
-Convolutional layer for JPEG images. Load image, apply filters, save.
-
-Supports sharpen, edge detection and blur filters by default. Image pooling is also implemented to reduce final resolution. 
-
-Custom filter matrices can be supplied to apply_filter method.
-
-## Example
-
-![Example image](https://github.com/kongzii/JpegConv/blob/master/sample.png "Example image")
-
-```c++
 #include "jpegconv/JpegConv.hpp"
 
 using namespace jpegconv;
@@ -54,5 +42,3 @@ int main(int argc, char **argv) {
 
     jpegconv.save(output_file);
 }
-
-```
