@@ -7,7 +7,11 @@ Custom filter matrices can be supplied to apply_filter method.
 
 ## Example
 
+Original image on left, right image is result of applying sharpen > edge detection > blur filter and pooling by 3x3 window.
+
 ![Example image](https://github.com/kongzii/JpegConv/blob/master/sample.png "Example image")
+
+### Source code
 
 ```c++
 #include "jpegconv/JpegConv.hpp"
